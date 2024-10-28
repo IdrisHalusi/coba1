@@ -22,11 +22,11 @@
                 </div>
             </div>
             <div class="section-body">
-                {{-- <div class="row">
+                <div class="row">
                     <div class="col-12">
                         @include('layouts.alert')
                     </div>
-                </div> --}}
+                </div>
 
 
                 <div class="row mt-4">
@@ -54,8 +54,7 @@
 
                                             <th>Name</th>
                                             <th>Email</th>
-                                            <th>Phone</th>
-                                            <th>Roles</th>
+
                                             <th>Created At</th>
                                             <th>Action</th>
                                         </tr>
@@ -66,12 +65,6 @@
                                                 </td>
                                                 <td>
                                                     {{ $user->email }}
-                                                </td>
-                                                <td>
-                                                    {{ $user->phone }}
-                                                </td>
-                                                <td>
-                                                    {{ $user->roles }}
                                                 </td>
 
                                                 <td>{{ $user->created_at }}</td>
