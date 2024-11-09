@@ -20,7 +20,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::resource('user', UserController::class);
     Route::resource('product', ProductController::class);
-
+    Route::resource('order', \App\Http\Controllers\OrderController::class);
     // Route::get('product', [ProductController::class, 'index'])->name('product.index');
 
 });
